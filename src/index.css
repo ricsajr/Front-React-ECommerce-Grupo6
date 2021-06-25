@@ -1,0 +1,40 @@
+main {
+	min-height: 80vh;
+}
+
+.navbar a {
+	color: white;
+}
+
+.navbar {
+	padding: 0.5em 1em;
+}
+
+.container h2 {
+	margin-top: 8px;
+}
+
+.navbar a:hover {
+	color: beige;
+	animation-direction: alternate;
+}
+
+.rating span {
+	margin: 0.05rem;
+}
+
+div {
+	white-space: pre-wrap;
+}
+
+@media (min-width: 1300) {
+	.container,
+	.container,
+	.container-lg,
+	.container-md,
+	.container-sm,
+	.container-xl {
+		min-width: 1300px;
+		max-width: 1500px;
+	}
+}
